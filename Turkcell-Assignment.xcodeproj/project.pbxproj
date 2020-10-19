@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5491E28253A368200A59872 /* DetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5491E27253A368200A59872 /* DetailVM.swift */; };
+		C54C8A91253E12FF005EB653 /* DispatchQuee+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54C8A90253E12FF005EB653 /* DispatchQuee+Extension.swift */; };
+		C579BCCD2539E7D0007CE0E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BCCC2539E7D0007CE0E4 /* AppDelegate.swift */; };
+		C579BCD12539E7D0007CE0E4 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BCD02539E7D0007CE0E4 /* MainVC.swift */; };
+		C579BCD72539E7D0007CE0E4 /* Turkcell_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C579BCD52539E7D0007CE0E4 /* Turkcell_Assignment.xcdatamodeld */; };
+		C579BCD92539E7D2007CE0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C579BCD82539E7D2007CE0E4 /* Assets.xcassets */; };
+		C579BCDC2539E7D2007CE0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C579BCDA2539E7D2007CE0E4 /* LaunchScreen.storyboard */; };
+		C579BCF32539E8B8007CE0E4 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BCF22539E8B8007CE0E4 /* AppContainer.swift */; };
+		C579BCF52539E8D2007CE0E4 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BCF42539E8D2007CE0E4 /* AppCoordinator.swift */; };
+		C579BCF82539E929007CE0E4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BCF72539E929007CE0E4 /* NetworkManager.swift */; };
+		C579BD0C253A0231007CE0E4 /* MainResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BD0B253A0231007CE0E4 /* MainResponseModel.swift */; };
+		C579BD0E253A0292007CE0E4 /* DetailResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BD0D253A0292007CE0E4 /* DetailResponseModel.swift */; };
+		C579BD10253A0450007CE0E4 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BD0F253A0450007CE0E4 /* Builder.swift */; };
+		C579BD13253A0977007CE0E4 /* ActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BD12253A0977007CE0E4 /* ActivityIndicatorManager.swift */; };
+		C579BD15253A0ABD007CE0E4 /* ActivityIndicator+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BD14253A0ABD007CE0E4 /* ActivityIndicator+Extension.swift */; };
+		C579BD17253A0C4E007CE0E4 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BD16253A0C4E007CE0E4 /* BaseVM.swift */; };
+		C579BD19253A0E17007CE0E4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BD18253A0E17007CE0E4 /* Constant.swift */; };
+		C579BD1D253A1FA2007CE0E4 /* MainScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C579BD1C253A1FA2007CE0E4 /* MainScene.storyboard */; };
+		C579BD1F253A21A7007CE0E4 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BD1E253A21A7007CE0E4 /* DetailVC.swift */; };
+		C579BD21253A21D6007CE0E4 /* DetailScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C579BD20253A21D6007CE0E4 /* DetailScene.storyboard */; };
+		C579BD23253A2760007CE0E4 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BD22253A2760007CE0E4 /* ReachabilityManager.swift */; };
+		C579BD25253A2A46007CE0E4 /* NetworkManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579BD24253A2A46007CE0E4 /* NetworkManager+Extension.swift */; };
+		C58DBB04253A2D1600F6267E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58DBB03253A2D1600F6267E /* NetworkError.swift */; };
+		C58DBB06253A301F00F6267E /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58DBB05253A301F00F6267E /* NetworkRouter.swift */; };
+		C58DBB08253A334B00F6267E /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58DBB07253A334B00F6267E /* MainVM.swift */; };
+		C59CA62A253B0041009D293C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59CA629253B0041009D293C /* CoreDataManager.swift */; };
+		C5AE2DBB253A43AD00F0F7B7 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE2DBA253A43AD00F0F7B7 /* BaseModel.swift */; };
+		C5AE2DBD253A4B2700F0F7B7 /* ImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE2DBC253A4B2700F0F7B7 /* ImageView+Extension.swift */; };
+		C5AE2DC0253A547400F0F7B7 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE2DBE253A547400F0F7B7 /* MainCollectionViewCell.swift */; };
+		C5AE2DC1253A547400F0F7B7 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5AE2DBF253A547400F0F7B7 /* MainCollectionViewCell.xib */; };
+		C5AE2DC3253A5D4100F0F7B7 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE2DC2253A5D4100F0F7B7 /* CALayer+Extension.swift */; };
+		C5AE2DC5253A66B500F0F7B7 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE2DC4253A66B500F0F7B7 /* ViewController+Extension.swift */; };
+		C5F0660A253B3EF700CDB8E0 /* MainSpecsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F06609253B3EF700CDB8E0 /* MainSpecsTest.swift */; };
+		C5F0660C253B524800CDB8E0 /* NetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0660B253B524800CDB8E0 /* NetworkTest.swift */; };
+		C5F0660E253B592700CDB8E0 /* DetailSpecsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0660D253B592700CDB8E0 /* DetailSpecsTest.swift */; };
+		C5F06622253B661C00CDB8E0 /* Detail+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0661C253B661C00CDB8E0 /* Detail+CoreDataClass.swift */; };
+		C5F06626253B661C00CDB8E0 /* ProductList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F06620253B661C00CDB8E0 /* ProductList+CoreDataClass.swift */; };
+		C5F06629253B8DA400CDB8E0 /* CodingKeyInfo+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F06628253B8DA400CDB8E0 /* CodingKeyInfo+Extension.swift */; };
+		C5F06631253B913000CDB8E0 /* Detail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F06630253B913000CDB8E0 /* Detail+CoreDataProperties.swift */; };
+		C5F06633253B915300CDB8E0 /* ProductList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F06632253B915300CDB8E0 /* ProductList+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C579BCE32539E7D2007CE0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C579BCC12539E7D0007CE0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C579BCC82539E7D0007CE0E4;
+			remoteInfo = "Turkcell-Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5491E27253A368200A59872 /* DetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVM.swift; sourceTree = "<group>"; };
+		C54C8A90253E12FF005EB653 /* DispatchQuee+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQuee+Extension.swift"; sourceTree = "<group>"; };
+		C579BCC92539E7D0007CE0E4 /* Turkcell-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turkcell-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C579BCCC2539E7D0007CE0E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C579BCD02539E7D0007CE0E4 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C579BCD62539E7D0007CE0E4 /* Turkcell_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Turkcell_Assignment.xcdatamodel; sourceTree = "<group>"; };
+		C579BCD82539E7D2007CE0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C579BCDB2539E7D2007CE0E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C579BCDD2539E7D2007CE0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C579BCE22539E7D2007CE0E4 /* Turkcell-AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turkcell-AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C579BCE82539E7D2007CE0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C579BCF22539E8B8007CE0E4 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		C579BCF42539E8D2007CE0E4 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		C579BCF72539E929007CE0E4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C579BD0B253A0231007CE0E4 /* MainResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainResponseModel.swift; sourceTree = "<group>"; };
+		C579BD0D253A0292007CE0E4 /* DetailResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResponseModel.swift; sourceTree = "<group>"; };
+		C579BD0F253A0450007CE0E4 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		C579BD12253A0977007CE0E4 /* ActivityIndicatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorManager.swift; sourceTree = "<group>"; };
+		C579BD14253A0ABD007CE0E4 /* ActivityIndicator+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActivityIndicator+Extension.swift"; sourceTree = "<group>"; };
+		C579BD16253A0C4E007CE0E4 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		C579BD18253A0E17007CE0E4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C579BD1C253A1FA2007CE0E4 /* MainScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScene.storyboard; sourceTree = "<group>"; };
+		C579BD1E253A21A7007CE0E4 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		C579BD20253A21D6007CE0E4 /* DetailScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailScene.storyboard; sourceTree = "<group>"; };
+		C579BD22253A2760007CE0E4 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		C579BD24253A2A46007CE0E4 /* NetworkManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Extension.swift"; sourceTree = "<group>"; };
+		C58DBB03253A2D1600F6267E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		C58DBB05253A301F00F6267E /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		C58DBB07253A334B00F6267E /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		C59CA629253B0041009D293C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		C5AE2DBA253A43AD00F0F7B7 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		C5AE2DBC253A4B2700F0F7B7 /* ImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+Extension.swift"; sourceTree = "<group>"; };
+		C5AE2DBE253A547400F0F7B7 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		C5AE2DBF253A547400F0F7B7 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		C5AE2DC2253A5D4100F0F7B7 /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		C5AE2DC4253A66B500F0F7B7 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		C5F06609253B3EF700CDB8E0 /* MainSpecsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSpecsTest.swift; sourceTree = "<group>"; };
+		C5F0660B253B524800CDB8E0 /* NetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTest.swift; sourceTree = "<group>"; };
+		C5F0660D253B592700CDB8E0 /* DetailSpecsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSpecsTest.swift; sourceTree = "<group>"; };
+		C5F0661C253B661C00CDB8E0 /* Detail+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Detail+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C5F06620253B661C00CDB8E0 /* ProductList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C5F06628253B8DA400CDB8E0 /* CodingKeyInfo+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodingKeyInfo+Extension.swift"; sourceTree = "<group>"; };
+		C5F06630253B913000CDB8E0 /* Detail+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Detail+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C5F06632253B915300CDB8E0 /* ProductList+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProductList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C579BCC62539E7D0007CE0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C579BCDF2539E7D2007CE0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C579BCC02539E7D0007CE0E4 = {
+			isa = PBXGroup;
+			children = (
+				C579BCCB2539E7D0007CE0E4 /* Turkcell-Assignment */,
+				C579BCE52539E7D2007CE0E4 /* Turkcell-AssignmentTests */,
+				C579BCCA2539E7D0007CE0E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C579BCCA2539E7D0007CE0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C579BCC92539E7D0007CE0E4 /* Turkcell-Assignment.app */,
+				C579BCE22539E7D2007CE0E4 /* Turkcell-AssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C579BCCB2539E7D0007CE0E4 /* Turkcell-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				C579BCF12539E846007CE0E4 /* App */,
+				C58DBB02253A2CF500F6267E /* Network */,
+				C579BCFD2539FFE3007CE0E4 /* Scenes */,
+				C5F0661B253B659F00CDB8E0 /* Core Data */,
+				C579BCFE253A0006007CE0E4 /* Utilities */,
+				C579BCDA2539E7D2007CE0E4 /* LaunchScreen.storyboard */,
+				C579BCDD2539E7D2007CE0E4 /* Info.plist */,
+				C579BCD82539E7D2007CE0E4 /* Assets.xcassets */,
+			);
+			path = "Turkcell-Assignment";
+			sourceTree = "<group>";
+		};
+		C579BCE52539E7D2007CE0E4 /* Turkcell-AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5F06609253B3EF700CDB8E0 /* MainSpecsTest.swift */,
+				C5F0660D253B592700CDB8E0 /* DetailSpecsTest.swift */,
+				C5F0660B253B524800CDB8E0 /* NetworkTest.swift */,
+				C579BCE82539E7D2007CE0E4 /* Info.plist */,
+			);
+			path = "Turkcell-AssignmentTests";
+			sourceTree = "<group>";
+		};
+		C579BCF12539E846007CE0E4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C579BCCC2539E7D0007CE0E4 /* AppDelegate.swift */,
+				C579BCF22539E8B8007CE0E4 /* AppContainer.swift */,
+				C579BCF42539E8D2007CE0E4 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C579BCFD2539FFE3007CE0E4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C579BD01253A005A007CE0E4 /* MainScene */,
+				C579BD02253A006E007CE0E4 /* DetailScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C579BCFE253A0006007CE0E4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C579BD11253A0455007CE0E4 /* Common */,
+				C579BD00253A0032007CE0E4 /* Managers */,
+				C579BCFF253A001B007CE0E4 /* Extension */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C579BCFF253A001B007CE0E4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C579BD14253A0ABD007CE0E4 /* ActivityIndicator+Extension.swift */,
+				C579BD24253A2A46007CE0E4 /* NetworkManager+Extension.swift */,
+				C5AE2DBC253A4B2700F0F7B7 /* ImageView+Extension.swift */,
+				C5AE2DC2253A5D4100F0F7B7 /* CALayer+Extension.swift */,
+				C5AE2DC4253A66B500F0F7B7 /* ViewController+Extension.swift */,
+				C5F06628253B8DA400CDB8E0 /* CodingKeyInfo+Extension.swift */,
+				C54C8A90253E12FF005EB653 /* DispatchQuee+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C579BD00253A0032007CE0E4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C579BD12253A0977007CE0E4 /* ActivityIndicatorManager.swift */,
+				C579BD22253A2760007CE0E4 /* ReachabilityManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C579BD01253A005A007CE0E4 /* MainScene */ = {
+			isa = PBXGroup;
+			children = (
+				C579BD06253A00B3007CE0E4 /* ViewController */,
+				C579BD05253A00AA007CE0E4 /* View */,
+				C579BD04253A00A5007CE0E4 /* Model */,
+				C579BD03253A0096007CE0E4 /* ViewModel */,
+			);
+			path = MainScene;
+			sourceTree = "<group>";
+		};
+		C579BD02253A006E007CE0E4 /* DetailScene */ = {
+			isa = PBXGroup;
+			children = (
+				C579BD0A253A00D1007CE0E4 /* ViewController */,
+				C579BD08253A00C7007CE0E4 /* Model */,
+				C579BD07253A00BB007CE0E4 /* ViewModel */,
+			);
+			path = DetailScene;
+			sourceTree = "<group>";
+		};
+		C579BD03253A0096007CE0E4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C58DBB07253A334B00F6267E /* MainVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C579BD04253A00A5007CE0E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C579BD0B253A0231007CE0E4 /* MainResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C579BD05253A00AA007CE0E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE2DBE253A547400F0F7B7 /* MainCollectionViewCell.swift */,
+				C5AE2DBF253A547400F0F7B7 /* MainCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C579BD06253A00B3007CE0E4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C579BCD02539E7D0007CE0E4 /* MainVC.swift */,
+				C579BD1C253A1FA2007CE0E4 /* MainScene.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C579BD07253A00BB007CE0E4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C5491E27253A368200A59872 /* DetailVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C579BD08253A00C7007CE0E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C579BD0D253A0292007CE0E4 /* DetailResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C579BD0A253A00D1007CE0E4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C579BD1E253A21A7007CE0E4 /* DetailVC.swift */,
+				C579BD20253A21D6007CE0E4 /* DetailScene.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C579BD11253A0455007CE0E4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C579BD0F253A0450007CE0E4 /* Builder.swift */,
+				C579BD16253A0C4E007CE0E4 /* BaseVM.swift */,
+				C5AE2DBA253A43AD00F0F7B7 /* BaseModel.swift */,
+				C579BD18253A0E17007CE0E4 /* Constant.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C58DBB02253A2CF500F6267E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C579BCF72539E929007CE0E4 /* NetworkManager.swift */,
+				C58DBB03253A2D1600F6267E /* NetworkError.swift */,
+				C58DBB05253A301F00F6267E /* NetworkRouter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C5F0661B253B659F00CDB8E0 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				C5F0661C253B661C00CDB8E0 /* Detail+CoreDataClass.swift */,
+				C5F06630253B913000CDB8E0 /* Detail+CoreDataProperties.swift */,
+				C5F06632253B915300CDB8E0 /* ProductList+CoreDataProperties.swift */,
+				C5F06620253B661C00CDB8E0 /* ProductList+CoreDataClass.swift */,
+				C59CA629253B0041009D293C /* CoreDataManager.swift */,
+				C579BCD52539E7D0007CE0E4 /* Turkcell_Assignment.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C579BCC82539E7D0007CE0E4 /* Turkcell-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C579BCEB2539E7D2007CE0E4 /* Build configuration list for PBXNativeTarget "Turkcell-Assignment" */;
+			buildPhases = (
+				C579BCC52539E7D0007CE0E4 /* Sources */,
+				C579BCC62539E7D0007CE0E4 /* Frameworks */,
+				C579BCC72539E7D0007CE0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turkcell-Assignment";
+			productName = "Turkcell-Assignment";
+			productReference = C579BCC92539E7D0007CE0E4 /* Turkcell-Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C579BCE12539E7D2007CE0E4 /* Turkcell-AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C579BCEE2539E7D2007CE0E4 /* Build configuration list for PBXNativeTarget "Turkcell-AssignmentTests" */;
+			buildPhases = (
+				C579BCDE2539E7D2007CE0E4 /* Sources */,
+				C579BCDF2539E7D2007CE0E4 /* Frameworks */,
+				C579BCE02539E7D2007CE0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C579BCE42539E7D2007CE0E4 /* PBXTargetDependency */,
+			);
+			name = "Turkcell-AssignmentTests";
+			productName = "Turkcell-AssignmentTests";
+			productReference = C579BCE22539E7D2007CE0E4 /* Turkcell-AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C579BCC12539E7D0007CE0E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = M.J;
+				TargetAttributes = {
+					C579BCC82539E7D0007CE0E4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C579BCE12539E7D2007CE0E4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C579BCC82539E7D0007CE0E4;
+					};
+				};
+			};
+			buildConfigurationList = C579BCC42539E7D0007CE0E4 /* Build configuration list for PBXProject "Turkcell-Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C579BCC02539E7D0007CE0E4;
+			productRefGroup = C579BCCA2539E7D0007CE0E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C579BCC82539E7D0007CE0E4 /* Turkcell-Assignment */,
+				C579BCE12539E7D2007CE0E4 /* Turkcell-AssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C579BCC72539E7D0007CE0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C579BCDC2539E7D2007CE0E4 /* LaunchScreen.storyboard in Resources */,
+				C579BCD92539E7D2007CE0E4 /* Assets.xcassets in Resources */,
+				C579BD21253A21D6007CE0E4 /* DetailScene.storyboard in Resources */,
+				C5AE2DC1253A547400F0F7B7 /* MainCollectionViewCell.xib in Resources */,
+				C579BD1D253A1FA2007CE0E4 /* MainScene.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C579BCE02539E7D2007CE0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C579BCC52539E7D0007CE0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F06631253B913000CDB8E0 /* Detail+CoreDataProperties.swift in Sources */,
+				C58DBB04253A2D1600F6267E /* NetworkError.swift in Sources */,
+				C579BD15253A0ABD007CE0E4 /* ActivityIndicator+Extension.swift in Sources */,
+				C5AE2DBD253A4B2700F0F7B7 /* ImageView+Extension.swift in Sources */,
+				C579BCF82539E929007CE0E4 /* NetworkManager.swift in Sources */,
+				C579BD0E253A0292007CE0E4 /* DetailResponseModel.swift in Sources */,
+				C579BD10253A0450007CE0E4 /* Builder.swift in Sources */,
+				C579BCD72539E7D0007CE0E4 /* Turkcell_Assignment.xcdatamodeld in Sources */,
+				C579BD13253A0977007CE0E4 /* ActivityIndicatorManager.swift in Sources */,
+				C579BD25253A2A46007CE0E4 /* NetworkManager+Extension.swift in Sources */,
+				C579BD0C253A0231007CE0E4 /* MainResponseModel.swift in Sources */,
+				C5AE2DBB253A43AD00F0F7B7 /* BaseModel.swift in Sources */,
+				C5AE2DC3253A5D4100F0F7B7 /* CALayer+Extension.swift in Sources */,
+				C579BCF32539E8B8007CE0E4 /* AppContainer.swift in Sources */,
+				C579BD23253A2760007CE0E4 /* ReachabilityManager.swift in Sources */,
+				C579BCF52539E8D2007CE0E4 /* AppCoordinator.swift in Sources */,
+				C58DBB08253A334B00F6267E /* MainVM.swift in Sources */,
+				C5F06629253B8DA400CDB8E0 /* CodingKeyInfo+Extension.swift in Sources */,
+				C579BD19253A0E17007CE0E4 /* Constant.swift in Sources */,
+				C579BCD12539E7D0007CE0E4 /* MainVC.swift in Sources */,
+				C5F06622253B661C00CDB8E0 /* Detail+CoreDataClass.swift in Sources */,
+				C5F06633253B915300CDB8E0 /* ProductList+CoreDataProperties.swift in Sources */,
+				C5AE2DC5253A66B500F0F7B7 /* ViewController+Extension.swift in Sources */,
+				C579BCCD2539E7D0007CE0E4 /* AppDelegate.swift in Sources */,
+				C59CA62A253B0041009D293C /* CoreDataManager.swift in Sources */,
+				C5F06626253B661C00CDB8E0 /* ProductList+CoreDataClass.swift in Sources */,
+				C579BD17253A0C4E007CE0E4 /* BaseVM.swift in Sources */,
+				C5AE2DC0253A547400F0F7B7 /* MainCollectionViewCell.swift in Sources */,
+				C579BD1F253A21A7007CE0E4 /* DetailVC.swift in Sources */,
+				C58DBB06253A301F00F6267E /* NetworkRouter.swift in Sources */,
+				C5491E28253A368200A59872 /* DetailVM.swift in Sources */,
+				C54C8A91253E12FF005EB653 /* DispatchQuee+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C579BCDE2539E7D2007CE0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F0660E253B592700CDB8E0 /* DetailSpecsTest.swift in Sources */,
+				C5F0660C253B524800CDB8E0 /* NetworkTest.swift in Sources */,
+				C5F0660A253B3EF700CDB8E0 /* MainSpecsTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C579BCE42539E7D2007CE0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C579BCC82539E7D0007CE0E4 /* Turkcell-Assignment */;
+			targetProxy = C579BCE32539E7D2007CE0E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C579BCDA2539E7D2007CE0E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C579BCDB2539E7D2007CE0E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C579BCE92539E7D2007CE0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C579BCEA2539E7D2007CE0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C579BCEC2539E7D2007CE0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYR6BN7364;
+				INFOPLIST_FILE = "Turkcell-Assignment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m.j.Turkcell-Assignmen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C579BCED2539E7D2007CE0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYR6BN7364;
+				INFOPLIST_FILE = "Turkcell-Assignment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m.j.Turkcell-Assignmen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C579BCEF2539E7D2007CE0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97NH7NW892;
+				INFOPLIST_FILE = "Turkcell-AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m.j.Turkcell-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turkcell-Assignment.app/Turkcell-Assignment";
+			};
+			name = Debug;
+		};
+		C579BCF02539E7D2007CE0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97NH7NW892;
+				INFOPLIST_FILE = "Turkcell-AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m.j.Turkcell-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turkcell-Assignment.app/Turkcell-Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C579BCC42539E7D0007CE0E4 /* Build configuration list for PBXProject "Turkcell-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C579BCE92539E7D2007CE0E4 /* Debug */,
+				C579BCEA2539E7D2007CE0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C579BCEB2539E7D2007CE0E4 /* Build configuration list for PBXNativeTarget "Turkcell-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C579BCEC2539E7D2007CE0E4 /* Debug */,
+				C579BCED2539E7D2007CE0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C579BCEE2539E7D2007CE0E4 /* Build configuration list for PBXNativeTarget "Turkcell-AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C579BCEF2539E7D2007CE0E4 /* Debug */,
+				C579BCF02539E7D2007CE0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C579BCD52539E7D0007CE0E4 /* Turkcell_Assignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C579BCD62539E7D0007CE0E4 /* Turkcell_Assignment.xcdatamodel */,
+			);
+			currentVersion = C579BCD62539E7D0007CE0E4 /* Turkcell_Assignment.xcdatamodel */;
+			path = Turkcell_Assignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C579BCC12539E7D0007CE0E4 /* Project object */;
+}
