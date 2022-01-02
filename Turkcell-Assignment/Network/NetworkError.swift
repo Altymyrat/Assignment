@@ -14,6 +14,7 @@ enum ErrorType: Error {
     case validationError
     case serverError
     case defaultError
+    case newOne
     
     case emptyCoreData
     
@@ -31,6 +32,8 @@ enum ErrorType: Error {
             return "Something went wrong."
         case .emptyCoreData:
             return "Core data is empty"
+        case newOne:
+            return "new added case"
         }
     }
 }
